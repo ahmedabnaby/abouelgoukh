@@ -1,0 +1,56 @@
+@media only screen and (max-width: 529px) {
+
+    .logo img
+    {
+        position: relative;
+        left: 5%;
+        width: 100%;
+    }
+    .cart-dropdown
+    {
+        position: relative;
+        left: 0px;
+    }
+}
+@media (min-width: 530px) and (max-width: 611px) {
+    
+        .logo img
+        {
+            position: relative;
+            left: 12%;
+            width: 100%;
+        }
+        .cart-dropdown
+    {
+        position: relative;
+        left: 0px;
+    }
+}
+@media (min-width: 612px) and (max-width: 667px) {
+    
+    .logo img
+    {
+        position: relative;
+        left: 25%;
+        width: 100%;
+    }
+    .cart-dropdown
+    {
+        position: relative;
+        left: 0px;
+    }
+}
+@media (min-width: 667px) and (max-width: 767px) {
+    
+    .logo img
+    {
+        position: relative;
+        left: 35%;
+        width: 100%;
+    }
+    .cart-dropdown
+    {
+        position: relative;
+        left: 0px;
+    }
+}
