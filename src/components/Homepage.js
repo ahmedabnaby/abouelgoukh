@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { products } from './Product';
 class Homepage extends Component {
     constructor(props) {
         super(props);
@@ -26,7 +25,7 @@ class Homepage extends Component {
                     <button className="btn">Shop All Sale</button>
                   </div>
                   <div className="image-container mx-auto py-5">
-                    <img src="assets/images/abouelgoukh/50A_UNICA_CLARIS_RED_2015-976x536-600x330.png" className="slide-img1" alt="slide image" />
+                    <img src="assets/images/abouelgoukh/bicycles/50A_UNICA_CLARIS_RED_2015-976x536-600x330.png" className="slide-img1" alt="slide image" />
                     <div className="image-info mt-2 mt-lg-6 flex-column flex-sm-row">
                       <div className="info-left">
                         <h4><span>Unica</span></h4>
@@ -40,7 +39,7 @@ class Homepage extends Component {
               </div>
               <div className="home-slide">
                 <div className="slide-content flex-column flex-lg-row">
-                  <img src="assets/images/abouelgoukh/M053.png" className="mx-auto mr-lg-0 py-5" alt="slide image" />
+                  <img src="assets/images/abouelgoukh/bikes/M053.png" className="mx-auto mr-lg-0 py-5" alt="slide image" />
                   <div className="content-right order-first order-lg-1 mx-auto py-5">
                     <h2>Featured</h2>
                     <h4 className="cross-txt">BIKES</h4>
@@ -53,7 +52,7 @@ class Homepage extends Component {
             <div className="container">
               <section className="product-panel">
                 <div className="section-title">
-                  <h2>Most Popular Products</h2>
+                  <h2>Most Popular Bicycles</h2>
                 </div>
                 <div className="owl-carousel owl-theme" data-toggle="owl" data-owl-options="{
                           'margin': 4,
@@ -73,11 +72,11 @@ class Homepage extends Component {
                               }
                           }
                       }">
-                        {this.props.products.map((product)=>
-                  <div className="product-default inner-quickview inner-icon center-details">
-                    <figure>
+                        {this.props.bicycles.map((bicycle)=>
+                  <div className="product-default inner-quickview inner-icon center-details" key={bicycle.id}>
+                    <figure className="product_fixed_width">
                       <a href="product.html">
-                        <img src={product.image}/>
+                        <img src={bicycle.image}/>
                       </a>
                       <div className="btn-icon-group">
                         <button className="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i className="icon-bag" /></button>
@@ -87,22 +86,12 @@ class Homepage extends Component {
                     <div className="product-details">
                       <div className="category-wrap">
                         <div className="category-list">
-                          <a href="category.html" className="product-category">{product.sub_category}</a>
+                          <a href="category.html" className="product-category">{bicycle.sub_category}</a>
                         </div>
                       </div>
-                      <h2 className="product-title">
-                        <a href="product.html">{product.name}</a>
+                      <h2 className="product-title product_title_margin">
+                        <a href="product.html">{bicycle.name}</a>
                       </h2>
-                      <div className="ratings-container">
-                        <div className="product-ratings">
-                          <span className="ratings" style={{width: '100%'}} />{/* End .ratings */}
-                          <span className="tooltiptext tooltip-top" />
-                        </div>{/* End .product-ratings */}
-                      </div>{/* End .product-container */}
-                      <div className="price-box">
-                        <span className="old-price">$59.00</span>
-                        <span className="product-price">$49.00</span>
-                      </div>{/* End .price-box */}
                     </div>{/* End .product-details */}
                   </div>
                   )}

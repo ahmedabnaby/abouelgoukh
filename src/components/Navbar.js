@@ -17,19 +17,19 @@ function Navbar()
                     <a href="index.html">Home</a>
                   </li>
                   <li>
-                    <a href="category.html">Bicycles</a>
+                    <a href="/bicycles">Bicycles</a>
                     <div className="megamenu">
                       <div className="row row-sm">
                         <div className="col-md-4">
-                          <a href="#" className="nolink">Categories</a>
+                          <a className="nolink">Categories</a>
                           <ul className="submenu">
-                            <li><a href="#">Road</a></li>
-                            <li><a href="#">Mountain</a></li>
-                            <li><a href="#">Hybird</a></li>
+                            <li><a href="/bicycles">Road</a></li>
+                            <li><a href="/bicycles">Mountain</a></li>
+                            <li><a href="/bicycles">Hybird</a></li>
                           </ul>
                         </div>
                         <div className="col-md-8 image-container">
-                          <img src="assets/images/abouelgoukh/30-600x400.jpg" align="Menu banner" />
+                          <img src="assets/images/abouelgoukh/bicycles/30-600x400.jpg" align="Menu banner" />
                         </div>
                       </div>
                     </div>{/* End .megamenu */}
@@ -48,7 +48,7 @@ function Navbar()
                           </ul>
                         </div>
                         <div className="col-md-8 image-container">
-                          <img src="assets/images/abouelgoukh/cu800_po_md.jpg" align="Menu banner" />
+                          <img src="assets/images/abouelgoukh/bikes/cu800_po_md.jpg" align="Menu banner" />
                         </div>
                       </div>
                     </div>{/* End .megamenu */}
@@ -65,7 +65,7 @@ function Navbar()
                           </ul>
                         </div>
                         <div className="col-md-8 image-container">
-                          <img src="assets/images/abouelgoukh/ct800.jpg" align="Menu banner" />
+                          <img src="assets/images/abouelgoukh/treadmills/ct800.jpg" align="Menu banner" />
                         </div>
                       </div>
                     </div>{/* End .megamenu */}
@@ -82,7 +82,7 @@ function Navbar()
                           </ul>
                         </div>
                         <div className="col-md-8 image-container">
-                          <img src="assets/images/abouelgoukh/3-e1520509232170-600x540.jpg" align="Menu banner" />
+                          <img src="assets/images/abouelgoukh/ellipticals/3-e1520509232170-600x540.jpg" align="Menu banner" />
                         </div>
                       </div>
                     </div>{/* End .megamenu */}

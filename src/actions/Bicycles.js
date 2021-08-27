@@ -1,9 +1,9 @@
-export const products = [
+export const bicycles = [
     {
         id: '1',
         name: 'VIVA RA2700',
         description:'',
-        image: 'assets/images/abouelgoukh/30-600x400.jpg',
+        image: 'assets/images/abouelgoukh/bicycles/30-600x400.jpg',
         main_category: 'Bicycle',
         sub_category: 'Road',
         additional_info: "frame:700C ALLOY FRAME fork:700C ALLOY FRAME shifters:Shimano Claris brake_levers:Shimano Claris brakes:ALLOY CALIPER BRAKE rear_dreailleur:Shimano Claris 8S front_dreailleur:Shimano Claris cassette:SHIMANO CLARIS 11-28 8S handlebar:ALLOY RACING stem:ALLOY tyres:CST 700C*23C"         
@@ -12,7 +12,7 @@ export const products = [
         id: '2',
         name: 'VIVA RA2800',
         description:'',
-        image: 'assets/images/abouelgoukh/stide-20-600x345.jpg',
+        image: 'assets/images/abouelgoukh/bicycles/29-600x400.jpg',
         main_category: 'Bicycle',
         sub_category: 'Road',
         frame:'700C" ALLOY FRAME',
@@ -31,7 +31,7 @@ export const products = [
         id: '3',
         name: 'UNICA',
         description:'The Unica is a great starter road bike or an attractive option for someone upgrading from a cheaper first road bike. Take the spacers out from under the stem and you can get a very low aerodynamic position, making it ideal for racers or speed merchants, and the geometry provides good stability and balance that make it a friendly and appealing ride in most situations.',
-        image: 'assets/images/abouelgoukh/50A_UNICA_CLARIS_RED_2015-976x536-600x330.png',
+        image: 'assets/images/abouelgoukh/bicycles/50A_UNICA_CLARIS_RED_2015-976x536-600x330.png',
         main_category: 'Bicycle',
         sub_category: 'Road',
         frame:'Aluminium 6061',
@@ -56,7 +56,7 @@ export const products = [
         id: '4',
         name: 'Silverback Stride 15',
         description:'The Stride Mountain Bike Range has been tailored specifically for the needs of the recreational mountain biker. The frame is made from hydroformed lightweight alloy tubing and uses sport-specific geometry to inspire confidence. The frame is also rack-, fender-, disc brake- and bottle cage ready for multi-use adaptability.',
-        image: 'assets/images/abouelgoukh/stride-15-600x338.jpg',
+        image: 'assets/images/abouelgoukh/bicycles/stride-15-600x338.jpg',
         main_category: 'Bicycle',
         sub_category: 'Mountain',
         frame:'Lightweight, Hydroformed, 6061 Butted Aluminum, 135mm QR Dropouts',
@@ -82,7 +82,7 @@ export const products = [
         id: '5',
         name: 'Silverback Stride Sport',
         description:'The Stride Mountain Bike Range has been tailored specifically for the needs of the recreational mountain biker. The frame is made from hydroformed lightweight alloy tubing and uses sport-specific geometry to inspire confidence. The frame is also rack-, fender-, disc brake- and bottle cage ready for multi-use adaptability.',
-        image: 'assets/images/abouelgoukh/stride-sport-600x346.jpg',
+        image: 'assets/images/abouelgoukh/bicycles/stride-sport-600x346.jpg',
         main_category: 'Bicycle',
         sub_category: 'Mountain',
         frame:'Lightweight, Hydroformed, 6061 Butted Aluminum, 135mm QR Dropouts',
@@ -102,5 +102,27 @@ export const products = [
         tires:'KENDA K922, 26″',
         wheels: 'Bottecchia Racing',
         saddle: 'Silverback, Steel Rails'
+    },
+    {
+        id: '6',
+        name: 'Silverback Stride 20',
+        description:'The 26-inch, hardtail. These bikes are ready to perform on off road trails. With Shimano components these bikes are easy to use and perfect for the beginner. The Stride Mountain Bike Range has been tailored specifically for the needs of the recreational mountain biker. The frame is made from hydroformed lightweight alloy tubing and uses sport-specific geometry to inspire confidence. The frame is also rack-, fender-, disc brake- and bottle cage ready for multi-use adaptability.',
+        image: 'assets/images/abouelgoukh/bicycles/stide-20-600x345.jpg',
+        main_category: 'Bicycle',
+        sub_category: 'Mountain',
+        frame:'SBC Lightweight Hydraformed 6061 Alloy',
+        fork:'SR Suntour XCT MLO 100m',
+        rims:'Alx DC26 Alloy Double Wall',
+        hubs:'Alloy Q/R 32 Hole',
+        headset: 'VP',
+        shifters:'Shimano ST-EF51',
+        brakes:'TEKTRO  MD-M300 Mechanical Disc Brakes',
+        rear_dreailleur:'Shimano Altus RD-M280',
+        front_dreailleur:'Shimano FD-M190',
+        handlebar:'SBC Alloy 6061',
+        stem:'SBC Forged Alloy',
+        tires:'CST 26″x1.95',
+        seat_post: 'SBC Alloy'
     }
 ];
+
