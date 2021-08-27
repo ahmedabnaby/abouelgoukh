@@ -216,14 +216,14 @@ function Navbar()
                     <a href="index.html">Home</a>
                   </li>
                   <li>
-                    <a href="category.html">Bicycles</a>
+                    <a href="/bicycles">Bicycles</a>
                     <div className="megamenu">
                       <div className="row row-sm">
                         <div className="col-md-4">
                           <ul className="submenu">
-                            <li><a href="#">Road</a></li>
-                            <li><a href="#">Mountain</a></li>
-                            <li><a href="#">Hybird</a></li>
+                            <li><a href="/bicycles">Road</a></li>
+                            <li><a href="/bicycles">Mountain</a></li>
+                            <li><a href="/bicycles">Hybird</a></li>
                           </ul>
                         </div>
                       </div>
