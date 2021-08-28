@@ -5,9 +5,11 @@ import {bicycles} from "./actions/Bicycles"
 import {helmets} from "./actions/Helmets"
 import {bikes} from "./actions/Bikes"
 import {treadmills} from "./actions/Treadmills"
+import {ellipticals} from "./actions/Ellipticals"
 import Bicycles from "./components/Bicycles"
 import Bikes from "./components/Bikes"
 import Treadmills from "./components/Treadmills"
+import Ellipticals from "./components/Ellipticals"
 import SingleBicycle from "./components/SingleBicycle"
 import Navbar from "./components/Navbar"
 import {
@@ -32,6 +34,9 @@ function App() {
           </Route>
           <Route path="/treadmills">
           <Treadmills treadmills={treadmills}/>
+          </Route>
+          <Route path="/ellipticals">
+          <Ellipticals ellipticals={ellipticals}/>
           </Route>
           <Route path="/">
           <Homepage bicycles={bicycles} helmets={helmets} bikes={bikes}/>

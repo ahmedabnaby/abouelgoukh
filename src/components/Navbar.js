@@ -71,14 +71,14 @@ function Navbar()
                     </div>{/* End .megamenu */}
                   </li>
                   <li>
-                    <a href="category.html">Ellipticals</a>
+                    <a href="/ellipticals">Ellipticals</a>
                     <div className="megamenu">
                       <div className="row row-sm">
                         <div className="col-md-4">
                           <a href="#" className="nolink">Categories</a>
                           <ul className="submenu">
-                            <li><a href="#">Home Use</a></li>
-                            <li><a href="#">Commerical</a></li>
+                            <li><a href="/ellipticals">Home Use</a></li>
+                            <li><a href="/ellipticals">Commerical</a></li>
                           </ul>
                         </div>
                         <div className="col-md-8 image-container">
@@ -258,13 +258,13 @@ function Navbar()
                     </div>{/* End .megamenu */}
                   </li>
                   <li>
-                    <a href="category.html">Ellipticals</a>
+                    <a href="/ellipticals">Ellipticals</a>
                     <div className="megamenu">
                       <div className="row row-sm">
                         <div className="col-md-4">
                           <ul className="submenu">
-                            <li><a href="#">Home Use</a></li>
-                            <li><a href="#">Commerical</a></li>
+                            <li><a href="/ellipticals">Home Use</a></li>
+                            <li><a href="/ellipticals">Commerical</a></li>
                           </ul>
                         </div>
                       </div>
