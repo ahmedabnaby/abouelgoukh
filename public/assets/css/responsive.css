@@ -11,6 +11,18 @@
         position: relative;
         left: 0px;
     }
+    .product_fixed_width
+    {
+        height: auto;
+    }
+    .product_title_margin
+    {
+        margin-top: 0 !important;
+    }
+    .quickview_margin
+    {
+        margin-bottom: 0 !important;
+    }
 }
 @media (min-width: 530px) and (max-width: 611px) {
     
@@ -24,6 +36,18 @@
     {
         position: relative;
         left: 0px;
+    }
+        .product_fixed_width
+    {
+        height: auto;
+    }
+    .product_title_margin
+    {
+        margin-top: 0 !important;
+    }
+    .quickview_margin
+    {
+        margin-bottom: 0 !important;
     }
 }
 @media (min-width: 612px) and (max-width: 667px) {
@@ -39,6 +63,18 @@
         position: relative;
         left: 0px;
     }
+        .product_fixed_width
+    {
+        height: auto;
+    }
+    .product_title_margin
+    {
+        margin-top: 0 !important;
+    }
+    .quickview_margin
+    {
+        margin-bottom: 0 !important;
+    }
 }
 @media (min-width: 667px) and (max-width: 767px) {
     
@@ -52,5 +88,17 @@
     {
         position: relative;
         left: 0px;
+    }
+        .product_fixed_width
+    {
+        height: auto;
+    }
+    .product_title_margin
+    {
+        margin-top: 0 !important;
+    }
+    .quickview_margin
+    {
+        margin-bottom: 0 !important;
     }
 }

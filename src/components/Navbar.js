@@ -8,13 +8,13 @@ function Navbar()
               <button className="mobile-menu-toggler" type="button">
                 <i className="icon-menu" />
               </button>
-              <a href="index.html" className="logo">
+              <a href="/" className="logo">
                 <img src="assets/images/abouelgoukh/Black-on-White-EngVer2.png" alt="Porto Logo" />
               </a>
               <nav className="main-nav">
                 <ul className="menu">
                   <li>
-                    <a href="index.html">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
                     <a href="/bicycles">Bicycles</a>
@@ -35,37 +35,37 @@ function Navbar()
                     </div>{/* End .megamenu */}
                   </li>
                   <li>
-                    <a href="category.html">Bikes</a>
+                    <a href="/bikes">Bikes</a>
                     <div className="megamenu">
                       <div className="row row-sm">
                         <div className="col-md-4">
                           <a href="#" className="nolink">Categories</a>
                           <ul className="submenu">
-                            <li><a href="#">Spinning Bikes</a></li>
-                            <li><a href="#">Magnetic Bikes</a></li>
-                            <li><a href="#">Belt Bikes</a></li>
-                            <li><a href="#">Commerical Bikes</a></li>
+                            <li><a href="/bikes">Spinning Bikes</a></li>
+                            <li><a href="/bikes">Magnetic Bikes</a></li>
+                            <li><a href="/bikes">Belt Bikes</a></li>
+                            <li><a href="/bikes">Commerical Bikes</a></li>
                           </ul>
                         </div>
                         <div className="col-md-8 image-container">
-                          <img src="assets/images/abouelgoukh/bikes/cu800_po_md.jpg" align="Menu banner" />
+                          <img src="assets/images/abouelgoukh/bikes/cr800.jpg" align="Menu banner" />
                         </div>
                       </div>
                     </div>{/* End .megamenu */}
                   </li>
                   <li>
-                    <a href="category.html">Treadmills</a>
+                    <a href="/treadmills">Treadmills</a>
                     <div className="megamenu">
                       <div className="row row-sm">
                         <div className="col-md-4">
-                          <a href="#" className="nolink">Categories</a>
+                          <a href="/treadmills" className="nolink">Categories</a>
                           <ul className="submenu">
-                            <li><a href="#">Home Use</a></li>
-                            <li><a href="#">Commerical</a></li>
+                            <li><a href="/treadmills">Home Use</a></li>
+                            <li><a href="/treadmills">Commerical</a></li>
                           </ul>
                         </div>
                         <div className="col-md-8 image-container">
-                          <img src="assets/images/abouelgoukh/treadmills/ct800.jpg" align="Menu banner" />
+                          <img src="assets/images/abouelgoukh/treadmills/ct800.png" align="Menu banner" />
                         </div>
                       </div>
                     </div>{/* End .megamenu */}
@@ -213,7 +213,7 @@ function Navbar()
       <nav className="mobile-nav">
       <ul className="mobile-menu">
                   <li>
-                    <a href="index.html">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
                     <a href="/bicycles">Bicycles</a>
@@ -230,28 +230,28 @@ function Navbar()
                     </div>{/* End .megamenu */}
                   </li>
                   <li>
-                    <a href="category.html">Bikes</a>
+                    <a href="/bikes">Bikes</a>
                     <div className="megamenu">
                       <div className="row row-sm">
                         <div className="col-md-4">
                           <ul className="submenu">
-                            <li><a href="#">Spinning Bikes</a></li>
-                            <li><a href="#">Magnetic Bikes</a></li>
-                            <li><a href="#">Belt Bikes</a></li>
-                            <li><a href="#">Commerical Bikes</a></li>
+                            <li><a href="/bikes">Spinning Bikes</a></li>
+                            <li><a href="/bikes">Magnetic Bikes</a></li>
+                            <li><a href="/bikes">Belt Bikes</a></li>
+                            <li><a href="/bikes">Commerical Bikes</a></li>
                           </ul>
                         </div>
                       </div>
                     </div>{/* End .megamenu */}
                   </li>
                   <li>
-                    <a href="category.html">Treadmills</a>
+                    <a href="/treadmills">Treadmills</a>
                     <div className="megamenu">
                       <div className="row row-sm">
                         <div className="col-md-4">
                           <ul className="submenu">
-                            <li><a href="#">Home Use</a></li>
-                            <li><a href="#">Commerical</a></li>
+                            <li><a href="/treadmills">Home Use</a></li>
+                            <li><a href="/treadmills">Commerical</a></li>
                           </ul>
                         </div>
                       </div>

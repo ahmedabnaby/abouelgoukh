@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-class Bicycles extends Component {
+class Treadmills extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -11,7 +11,7 @@ class Bicycles extends Component {
     <div className="container">
       <ol className="breadcrumb">
         <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li className="breadcrumb-item active" aria-current="page">Bicycles</li>
+        <li className="breadcrumb-item active" aria-current="page">Treadmills</li>
       </ol>
     </div>
   </nav>
@@ -40,28 +40,28 @@ class Bicycles extends Component {
             </div>{/* End .home-slide-content */}
           </div>{/* End .home-slide */}
         </div>{/* End .home-slider */}
-        <h1 className="mt-5 text-center">Featured Bicycles</h1>
+        <h1 className="mt-5 text-center">Featured Treadmills</h1>
         <div className="mt-5 row row-sm">
-        {this.props.bicycles.map((bicycle)=>
-          <div className="col-6 col-md-4 col-xl-3" key={bicycle.id}>
+        {this.props.treadmills.map((treadmill)=>
+          <div className="col-6 col-md-4 col-xl-3" key={treadmill.id}>
             <div className="product-default inner-quickview inner-icon">
-              <figure className="product_fixed_width">
+              <figure>
                 <a href="product.html">
-                  <img src={bicycle.image} />
+                  <img src={treadmill.image} />
                 </a>
                 <div className="btn-icon-group">
                   <button className="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i className="icon-bag" /></button>
                 </div>
-                <a href="ajax/product-quick-view.html" className="btn-quickview quickview_margin" title="Quick View">Quick View</a> 
+                <a href="ajax/product-quick-view.html" className="btn-quickview" title="Quick View">Quick View</a> 
               </figure>
-              <div className="product-details product_title_margin">
+              <div className="product-details ">
                 <div className="category-wrap">
                   <div className="category-list">
-                    <a href="category.html" className="product-category">{bicycle.sub_category}</a>
+                    <a href="category.html" className="product-category">{treadmill.sub_category}</a>
                   </div>
                 </div>
                 <h2 className="product-title">
-                  <a href="product.html">{bicycle.name}</a>
+                  <a href="product.html">{treadmill.name}</a>
                 </h2>
               </div>{/* End .product-details */}
             </div>
@@ -69,34 +69,6 @@ class Bicycles extends Component {
 )}
 
         </div>{/* End .row */}
-        <h1 className="mt-5 text-center">Featured Helmets</h1>
-        <div className="mt-5 row row-sm">
-        {this.props.helmets.map((helmet)=>
-          <div className="col-4 col-md-2 col-xl-2" key={helmet.id}>
-            <div className="product-default inner-quickview inner-icon">
-              <figure className="product_fixed_width">
-                <a href="product.html">
-                  <img src={helmet.image} />
-                </a>
-                <div className="btn-icon-group">
-                  <button className="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i className="icon-bag" /></button>
-                </div>
-                <a href="ajax/product-quick-view.html" className="btn-quickview quickview_margin" title="Quick View">Quick View</a> 
-              </figure>
-              <div className="product-details product_title_margin">
-                <div className="category-wrap">
-                  <div className="category-list">
-                    <a href="category.html" className="product-category">{helmet.sub_category}</a>
-                  </div>
-                </div>
-                <h2 className="product-title">
-                  <a href="product.html">{helmet.name}</a>
-                </h2>
-              </div>{/* End .product-details */}
-            </div>
-          </div>
-)}
-</div>
       </div>{/* End .col-lg-9 */}
             <div className="container d-flex justify-content-center">
               <div className="row row-sm mt-5 mb-5">
@@ -166,4 +138,4 @@ There are 2 basic handlebar styles. Drop-bar handlebars are lightweight, aerodyn
     }
 }
  
-export default Bicycles;
+export default Treadmills;

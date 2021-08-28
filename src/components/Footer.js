@@ -72,7 +72,7 @@ function Footer()
           <div className="container">
             <div className="row row-sm">
               <div className="col-md-6 col-lg-3">
-                <img src="assets/images/logo-white.png" />
+                <img src="assets/images/abouelgoukh/Black-on-White-EngVer2.png" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipis.</p>
                 <div className="social-link">
                   <h3 className="link-title">QUESTIONS?</h3>
@@ -131,7 +131,7 @@ function Footer()
           </div>
         </div>
         <div className="footer-bottom container">
-          <p>Porto eCommerce. © 2020. All Rights Reserved</p>
+          <p>Abou El-Goukh United. © 2021. All Rights Reserved</p>
         </div>
       </footer>
     );

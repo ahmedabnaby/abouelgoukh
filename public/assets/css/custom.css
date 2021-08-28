@@ -18,7 +18,7 @@
 }
 .product_title_margin
 {
-    margin-top: 45px !important;
+    margin-top: 80px !important;
 }
 .btn-quickview
 {
@@ -27,4 +27,8 @@
 .quickview_margin
 {
     margin-bottom: -50px !important;
+}
+.slide-img1
+{
+    width: 100%;
 }
