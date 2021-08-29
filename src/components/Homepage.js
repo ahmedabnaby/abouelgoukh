@@ -160,7 +160,7 @@ class Homepage extends Component {
             <div className="container">
               <section className="product-panel">
                 <div className="section-title">
-                  <h2>Trending Accessories</h2>
+                  <h2>Most Popular Bikes</h2>
                 </div>
                 <div className="owl-carousel owl-theme" data-toggle="owl" data-owl-options="{
                           'margin': 4,

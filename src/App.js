@@ -6,10 +6,12 @@ import {helmets} from "./actions/Helmets"
 import {bikes} from "./actions/Bikes"
 import {treadmills} from "./actions/Treadmills"
 import {ellipticals} from "./actions/Ellipticals"
+import {NH,NC,TH,TH_PT,TH_PT_FREE,SM_CT} from "./actions/SanfeiFitness"
 import Bicycles from "./components/Bicycles"
 import Bikes from "./components/Bikes"
 import Treadmills from "./components/Treadmills"
 import Ellipticals from "./components/Ellipticals"
+import SanfeiFitness from "./components/SanfeiFitness"
 import SingleBicycle from "./components/SingleBicycle"
 import Navbar from "./components/Navbar"
 import {
@@ -30,16 +32,19 @@ function App() {
             <Bicycles bicycles={bicycles} helmets={helmets}/>
           </Route>
           <Route path="/bikes">
-          <Bikes bikes={bikes}/>
+            <Bikes bikes={bikes}/>
           </Route>
           <Route path="/treadmills">
-          <Treadmills treadmills={treadmills}/>
+            <Treadmills treadmills={treadmills}/>
           </Route>
           <Route path="/ellipticals">
-          <Ellipticals ellipticals={ellipticals}/>
+            <Ellipticals ellipticals={ellipticals}/>
+          </Route>
+          <Route path="/sanfei-fitness">
+            <SanfeiFitness NH={NH} NC={NC} TH={TH} TH_PT={TH_PT} TH_PT_FREE={TH_PT_FREE} SM_CT={SM_CT}/>
           </Route>
           <Route path="/">
-          <Homepage bicycles={bicycles} helmets={helmets} bikes={bikes}/>
+            <Homepage bicycles={bicycles} helmets={helmets} bikes={bikes}/>
           </Route>
         </Switch>
 
@@ -53,3 +58,9 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+

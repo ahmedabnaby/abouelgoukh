@@ -8,7 +8,7 @@ function Footer()
               <i className="fab fa-instagram" />
               <div className="brand">
                 <h3>Follow Us on Instagram</h3>
-                <p>@portoecommerce</p>
+                <p>@abouelgoukh</p>
               </div>
             </div>
           </div>
@@ -102,7 +102,7 @@ function Footer()
                   <h3 className="widget-title">About</h3>
                   <div className="widget-content row row-sm">
                     <ul className="col-xl-6">
-                      <li><a href="about.html">About Porto</a></li>
+                      <li><a href="about.html">About Abou El-Goukh</a></li>
                       <li><a href="#">Our Guarantees</a></li>
                       <li><a href="#">Terms And Conditions</a></li>
                       <li><a href="#">Privacy Policy</a></li>

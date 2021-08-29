@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-class ellipticals extends Component {
+class Ellipticals extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -138,4 +138,4 @@ There are 2 basic handlebar styles. Drop-bar handlebars are lightweight, aerodyn
     }
 }
  
-export default ellipticals;
+export default Ellipticals;

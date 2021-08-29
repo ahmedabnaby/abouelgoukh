@@ -9,7 +9,7 @@ function Navbar()
                 <i className="icon-menu" />
               </button>
               <a href="/" className="logo">
-                <img src="assets/images/abouelgoukh/Black-on-White-EngVer2.png" alt="Porto Logo" />
+                <img src="assets/images/abouelgoukh/Black-on-White-EngVer2.png" alt="AbouelGoukh Logo" />
               </a>
               <nav className="main-nav">
                 <ul className="menu">
@@ -91,17 +91,17 @@ function Navbar()
                         <a href="#">Gym Equipment</a>
                         <ul>
                             <li>
-                                <a href="#">Sanfei Fitness</a>
+                                <a href="/sanfei-fitness">Sanfei Fitness</a>
                                 <ul>
-                                    <li><a href="#">NH Selectorized</a></li>
-                                    <li><a href="#">NC Selectorized</a></li>
-                                    <li><a href="#">TH Selectorized</a></li>
-                                    <li><a href="#">TH/PT Plate Loaded</a></li>
-                                    <li><a href="#">TH/PT Free Weight</a></li>
-                                    <li><a href="#">SM/CT  Plate Loaded</a></li>
-                                    <li><a href="#">SM/CT  Free Weight</a></li>
-                                    <li><a href="#">Group Fitness</a></li>
-                                    <li><a href="#">CT Selectorized</a></li>
+                                    <li><a href="/sanfei-fitness">NH Selectorized</a></li>
+                                    <li><a href="/sanfei-fitness">NC Selectorized</a></li>
+                                    <li><a href="/sanfei-fitness">TH Selectorized</a></li>
+                                    <li><a href="/sanfei-fitness">TH/PT Plate Loaded</a></li>
+                                    <li><a href="/sanfei-fitness">TH/PT Free Weight</a></li>
+                                    <li><a href="/sanfei-fitness">SM/CT  Plate Loaded</a></li>
+                                    <li><a href="/sanfei-fitness">SM/CT  Free Weight</a></li>
+                                    <li><a href="/sanfei-fitness">Group Fitness</a></li>
+                                    <li><a href="/sanfei-fitness">CT Selectorized</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Spirit Fitness</a></li>
