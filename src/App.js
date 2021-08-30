@@ -6,7 +6,7 @@ import {helmets} from "./actions/Helmets"
 import {bikes} from "./actions/Bikes"
 import {treadmills} from "./actions/Treadmills"
 import {ellipticals} from "./actions/Ellipticals"
-import {NH,NC,TH,TH_PT,TH_PT_FREE,SM_CT} from "./actions/SanfeiFitness"
+import {NH,NC,TH,TH_PT,TH_PT_FREE,SM_CT,SM_CT_FREE,GF} from "./actions/SanfeiFitness"
 import Bicycles from "./components/Bicycles"
 import Bikes from "./components/Bikes"
 import Treadmills from "./components/Treadmills"
@@ -41,7 +41,7 @@ function App() {
             <Ellipticals ellipticals={ellipticals}/>
           </Route>
           <Route path="/sanfei-fitness">
-            <SanfeiFitness NH={NH} NC={NC} TH={TH} TH_PT={TH_PT} TH_PT_FREE={TH_PT_FREE} SM_CT={SM_CT}/>
+            <SanfeiFitness NH={NH} NC={NC} TH={TH} TH_PT={TH_PT} TH_PT_FREE={TH_PT_FREE} SM_CT={SM_CT} SM_CT_FREE={SM_CT_FREE}/>
           </Route>
           <Route path="/">
             <Homepage bicycles={bicycles} helmets={helmets} bikes={bikes}/>
@@ -58,6 +58,7 @@ function App() {
 }
 
 export default App;
+
 
 
 

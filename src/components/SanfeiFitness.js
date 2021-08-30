@@ -266,7 +266,7 @@ class SanfeiFitness extends Component {
 )}
           </div>
         </div>{/* End .row */}
-        <h1 className="mt-5 text-center">TH/PT FREE WEIGHT</h1>
+        <h1 className="mt-5 text-center">SM/CT PLATE LOADED</h1>
         <div className="mt-5 row row-sm">
         <div className="owl-carousel owl-theme" data-toggle="owl" data-owl-options="{
                           'margin': 4,
@@ -287,6 +287,51 @@ class SanfeiFitness extends Component {
                           }
                       }">
         {this.props.SM_CT.map((th)=>
+                   <div className="product-default inner-quickview inner-icon center-details" key={th.id}>
+                   <figure>
+                     <a href="product.html">
+                       <img src={th.image}/>
+                     </a>
+                     <div className="btn-icon-group">
+                       <button className="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i className="icon-bag" /></button>
+                     </div>
+                     <a href="ajax/product-quick-view.html" className="btn-quickview" title="Quick View">Quick View</a> 
+                   </figure>
+                   <div className="product-details">
+                     <div className="category-wrap">
+                       <div className="category-list">
+                         <a href="category.html" className="product-category">{th.sub_category}</a>
+                       </div>
+                     </div>
+                     <h2 className="product-title">
+                       <a href="product.html">{th.name}</a>
+                     </h2>
+                   </div>{/* End .product-details */}
+                 </div>
+)}
+          </div>
+        </div>{/* End .row */}
+        <h1 className="mt-5 text-center">SM/CT FREE WEIGHT</h1>
+        <div className="mt-5 row row-sm">
+        <div className="owl-carousel owl-theme" data-toggle="owl" data-owl-options="{
+                          'margin': 4,
+                          'items': 2,
+                          'autoplayTimeout': 5000,
+                          'dots': false,
+                          'nav' : true,
+                          'responsive': {
+                              '768': {
+                                  'items': 3
+                              },
+                              '992' : {
+                                  'items' : 4
+                              },
+                              '1200': {
+                                  'items': 5
+                              }
+                          }
+                      }">
+        {this.props.SM_CT_FREE.map((th)=>
                    <div className="product-default inner-quickview inner-icon center-details" key={th.id}>
                    <figure>
                      <a href="product.html">

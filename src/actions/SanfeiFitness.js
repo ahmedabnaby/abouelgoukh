@@ -1,5 +1,3 @@
-
-
 export const NH = [
     {
         id: '1',
@@ -1135,7 +1133,7 @@ export const NH = [
         features2:'Start position is wider making it more applicable for larger users.',
         features3:'Iso-Lateral motion allows for equal strength development.',
         features4:'Standard weight horns allow for plate storage.',
-
+  
     },
     {
         id: '15',
@@ -1263,5 +1261,131 @@ export const NH = [
         net_weight:'88 Kg',
         gross_weight:'100 Kg'
     }
-
-];
+  
+  ];
+export const SM_CT_FREE = [
+    {
+        id: '1',
+        name: 'CT2040 FLAT BENCH',
+        main_category: 'Gym Equipment',
+        sub_category: 'SM/CT FREE WEIGHT',
+        image: 'assets/images/abouelgoukh/gym_equipments/SM_CT_FREE/1.jpg',
+        dimensions:'1240×500×600mm',
+        net_weight:'31 Kg',
+        gross_weight:'37 Kg',
+    },
+    {
+        id: '2',
+        name: 'CT2041 SEATED ARM CURL',
+        main_category: 'Gym Equipment',
+        sub_category: 'SM/CT FREE WEIGHT',
+        image: 'assets/images/abouelgoukh/gym_equipments/SM_CT_FREE/2.jpg',
+        dimensions:'1000×720×885mm',
+        net_weight:'21 Kg',
+        gross_weight:'26 Kg'
+    },
+    {
+        id: '3',
+        name: 'CT2042 OLYMPIC FLAT BENCH',
+        main_category: 'Gym Equipment',
+        sub_category: 'SM/CT FREE WEIGHT',
+        image: 'assets/images/abouelgoukh/gym_equipments/SM_CT_FREE/3.jpg',
+        dimensions:'2060×1810×1250mm',
+        net_weight:'65 Kg',
+        gross_weight:'71 Kg',
+    },
+    {
+        id: '4',
+        name: 'CT2047 SMITH MACHINE',
+        main_category: 'Gym Equipment',
+        sub_category: 'SM/CT FREE WEIGHT',
+        image: 'assets/images/abouelgoukh/gym_equipments/SM_CT_FREE/4.jpg',
+        dimensions:'1290×2330×2160mm',
+        net_weight:'135 Kg',
+        gross_weight:'147 Kg',
+    },
+    {
+        id: '5',
+        name: 'CT2051 MULTI-PURPOSE BENCH',
+        main_category: 'Gym Equipment',
+        sub_category: 'SM/CT FREE WEIGHT',
+        image: 'assets/images/abouelgoukh/gym_equipments/SM_CT_FREE/5.jpg',
+        dimensions:'1640×680×620mm',
+        net_weight:'45 Kg',
+        gross_weight:'53 Kg'
+    },
+    {
+        id: '6',
+        name: 'CT2052 ADJUSTABLE SIT-UP BENCH',
+        main_category: 'Gym Equipment',
+        sub_category: 'SM/CT FREE WEIGHT',
+        image: 'assets/images/abouelgoukh/gym_equipments/SM_CT_FREE/6.jpg',
+        dimensions:'1640×680×1100mm',
+        net_weight:'35 Kg',
+        gross_weight:'45 Kg',
+    },
+    {
+        id: '7',
+        name: 'CT2053 ADJUSTABLE FLAT/INCLINE BENCH',
+        main_category: 'Gym Equipment',
+        sub_category: 'SM/CT FREE WEIGHT',
+        image: 'assets/images/abouelgoukh/gym_equipments/SM_CT_FREE/7.jpg',
+        dimensions:'1546×670×1420mm',
+        net_weight:'31 Kg',
+        gross_weight:'36 Kg'
+    },
+    {
+        id: '8',
+        name: 'CT2072 45° HYPER EXTENSION',
+        main_category: 'Gym Equipment',
+        sub_category: 'SM/CT FREE WEIGHT',
+        image: 'assets/images/abouelgoukh/gym_equipments/SM_CT_FREE/8.jpg',
+        dimensions:'(L)1320×(W)680×(H)810mm',
+        net_weight:'25 Kg',
+        gross_weight:'31 Kg'
+    },
+    {
+        id: '9',
+        name: 'FM8843 2 TIERS DUMBBELL RACK',
+        main_category: 'Gym Equipment',
+        sub_category: 'SM/CT FREE WEIGHT',
+        image: 'assets/images/abouelgoukh/gym_equipments/SM_CT_FREE/9.jpg',
+        dimensions:'(L)1340×(W)600×(H)800mm',
+        net_weight:'40 Kg',
+        gross_weight:'44 Kg',
+    },
+    {
+        id: '10',
+        name: 'FM8843M 2 TIERS DUMBBELL RACK',
+        main_category: 'Gym Equipment',
+        sub_category: 'SM/CT FREE WEIGHT',
+        image: 'assets/images/abouelgoukh/gym_equipments/SM_CT_FREE/10.jpg',
+        dimensions:'2540×500×800mm',
+        net_weight:'71 Kg',
+        gross_weight:'82 Kg',
+    }
+  ];
+  export const GF = [
+    {
+        id: '1',
+        name: 'LC9000 IRON MAN TRAINER',
+        main_category: 'Gym Equipment',
+        sub_category: 'GROUP FITNESS',
+        image: 'assets/images/abouelgoukh/gym_equipments/GF/1.jpg',
+        dimensions:'5250×3850×2465mm',
+        net_weight:'810 Kg',
+        gross_weight:'858 Kg',
+        standard_load:'75KG×2',
+    },
+    {
+        id: '2',
+        name: 'LC9002 FUNCTION TRAINER',
+        main_category: 'Gym Equipment',
+        sub_category: 'GROUP FITNESST',
+        image: 'assets/images/abouelgoukh/gym_equipments/GF/2.PNG',
+        dimensions:'(L)3180×(W)3030×(H)2830mm',
+        net_weight:'550 Kg',
+        gross_weight:'580 Kg',
+        standard_load:'200lbs'
+    }
+  ];
